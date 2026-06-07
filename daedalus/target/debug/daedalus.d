@@ -1,1 +1,1 @@
-C:\Users\senti\OneDrive\Desktop\gitrepo\daedalus\target\debug\daedalus.exe: C:\Users\senti\OneDrive\Desktop\gitrepo\daedalus\src\cpu.rs C:\Users\senti\OneDrive\Desktop\gitrepo\daedalus\src\main.rs
+C:\Users\senti\OneDrive\Desktop\gitrepo\Daedalus\daedalus\target\debug\daedalus.exe: C:\Users\senti\OneDrive\Desktop\gitrepo\Daedalus\daedalus\src\cpu.rs C:\Users\senti\OneDrive\Desktop\gitrepo\Daedalus\daedalus\src\main.rs
