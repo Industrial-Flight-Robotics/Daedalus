@@ -1,17 +1,20 @@
 mod cpu;
+mod bus;
 
 use cpu::Cpu;
-
+use bus::Bus;
 
 fn main() {
     let mut cpu = Cpu::new();
+    let mut bus = Bus::new();
 
-    println!("A  = {:#04X}", cpu.a);
-    println!("B  = {:#04X}", cpu.b);
-    println!("PC = {:#06X}", cpu.pc);
-    println!("SP = {:#06X}", cpu.sp);
+
+    bus.write_byte(0x1000, 0xFF);
+    bus.write_byte(0x1001, 0xAA);
+    bus.write_byte(0x1002, 0x55);
+    bus.dump_memory(0x1000, 3);
+
 
     cpu.reset();
-
     println!("CPU was Reset");
 }

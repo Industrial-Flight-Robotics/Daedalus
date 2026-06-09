@@ -23,4 +23,12 @@ impl Cpu {
         self.pc = 0x0000;
         self.sp = 0x0000;
     }
+
+    pub fn state(&self) {
+        println!("A  = {:#04X}", self.a);
+        println!("B  = {:#04X}", self.b);
+        println!("PC = {:#06X}", self.pc);
+        println!("SP = {:#06X}", self.sp);
+    }
+    
 }
